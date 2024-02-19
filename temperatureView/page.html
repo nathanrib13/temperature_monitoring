@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature View</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <body  onload="gerarTemperatura()">
+        <div class="container">
+            <h1>Controle de Temperatura</h1>
+            <div class="temperatures">
+                <p>Temperatura em Celsius: <span id="celsius">--</span>°C</p>
+                <p>Temperatura em Fahrenheit: <span id="fahrenheit">--</span>°F</p>
+            </div>
+            <button onclick="gerarTemperatura()">Medir Temperatura</button>
+            <h2>Histórico de Temperaturas</h2>
+            <ul id="historico"></ul>
+        </div>
+    
+    
+    <script src="./script.js"></script>
+</body>
+</html>
