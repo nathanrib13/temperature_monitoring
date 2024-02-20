@@ -7,8 +7,8 @@ def provide_random_temperature():
 
 def main():
     while True:
-        data = provide_random_temperature()
-        print("dados gerados:", data)
+        temperature = provide_random_temperature()
+        print("A temperatura atual é:", temperature, "°C")
         time.sleep(5)
 
 

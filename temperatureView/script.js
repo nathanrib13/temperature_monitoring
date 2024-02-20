@@ -5,7 +5,6 @@ function gerarTemperatura(){
     document.getElementById("celsius").textContent = temperaturaCelsius;
     document.getElementById("fahrenheit").textContent = temperaturaFahrenheit;
 
-    // Adicionar a temperatura gerada ao histórico
     const historico = document.getElementById("historico");
     const novoItem = document.createElement("li");
     novoItem.textContent = "Celsius: " + temperaturaCelsius + "°C, Fahrenheit: " + temperaturaFahrenheit + "°F";
